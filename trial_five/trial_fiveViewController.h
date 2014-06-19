@@ -10,4 +10,14 @@
 
 @interface trial_fiveViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *big_button;
+
+@property (weak, nonatomic) IBOutlet UIButton *action_one;
+
+@property (weak, nonatomic) IBOutlet UIButton *action_two;
+
+@property (weak, nonatomic) IBOutlet UIButton *action_three;
+
+@property (weak, nonatomic) IBOutlet UIButton *action_four;
+
 @end
